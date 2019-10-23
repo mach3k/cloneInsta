@@ -44,6 +44,13 @@
   position: relative;
 }
 
+.Profile-photo-container img{
+  max-width:30px;
+  max-height:30px;
+  width: auto;
+  height: auto;
+}
+
 .Photo .Profile-name {
   margin-left: 12px;
   color: #262626;

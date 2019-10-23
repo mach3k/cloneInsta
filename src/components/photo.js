@@ -7,9 +7,9 @@ const Photo = props => (
 <div className="Profile">
       <div className="Profile-photo">
         <canvas className="Profile-photo-canvas" />
-        <span className="Profile-photo-container">
-          <img src={props.user.profile_image} />
-        </span>
+            <span className="Profile-photo-container">
+                <img src={props.user.profile_image} />
+            </span>
       </div>
       <div className="Profile-name">
         <a href={props.user.link} target="_blank">
